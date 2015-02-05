@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Bazinga</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Bazinga</string>
+    <string name="penny">Penny</string>
+    <string name="leonard">Leonard</string>
+    <string name="howard">Howard</string>
+    <string name="raj">Raj</string>
+    <string name="whip">Whip Crack</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical" android:padding="10dip">
+
+	<TextView android:text="Shake Options:" android:textStyle="bold" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:textSize="17dip"
+		android:textColor="#FFFFFF" />
+	
+	<RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content">
+	    <RadioButton android:text="Whip" android:id="@+id/whipRadio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true"/>
+	    <RadioButton android:enabled="false" android:text="Knocks" android:id="@+id/knocksRadio" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+	</RadioGroup>
+
+</LinearLayout>

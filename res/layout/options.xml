@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="10dip">
+    
+    <TextView android:text="Knocks Options:" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="17dip" android:textColor="#FFFFFF"/>
+    
+    <RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RadioButton android:enabled="false" android:id="@+id/howardRadio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Howard"/>
+        <RadioButton android:id="@+id/leonardRadio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Leonard"/>
+        <RadioButton android:id="@+id/pennyRadio" android:checked="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Penny"/>
+        <RadioButton android:id="@+id/rajRadio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Raj"/>
+        <RadioButton android:id="@+id/robotRadio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Robot Penny"/>
+    </RadioGroup>
+    
+
+</LinearLayout>
